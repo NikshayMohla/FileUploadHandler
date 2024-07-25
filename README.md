@@ -91,7 +91,7 @@ After a successful upload, an email is sent to the user with a link to the uploa
 
 ## Video Demonstration
 
-![Watch the demonstration video](nodemailer.mp4)
+![Watch the demonstration video](nodemailer.gif)
 
 ## Acknowledgements
 
