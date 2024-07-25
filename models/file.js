@@ -35,7 +35,7 @@ fileSchema.post("save", async function (doc) {
             from: "NMHelp",
             to: doc.email,
             subject: "NewFile uploaded on Cloudinary",
-            html: `<h2>hello brdr</h2><br></br><p>NEW FILE HAS BEEN UPLOADED</p><br/>VIEW HERE:<a href=${doc.imageUrl}>${doc.imageUrl}</a>`
+            html: `<h2>Greetings For The Day</h2><br></br><p>YOUR NEW FILE HAS BEEN UPLOADED</p><br/>VIEW HERE:<a href=${doc.imageUrl}>${doc.imageUrl}</a>`
         })
     } catch (error) {
         console.log(error)
