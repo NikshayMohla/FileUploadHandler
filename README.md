@@ -66,21 +66,21 @@ The application consists of the following files:
 
 ### Image Upload
 
-- **Endpoint**: `/upload/image`
+- **Endpoint**: `/upload/imageUpload`
 - **Method**: `POST`
 - **Description**: Uploads an image to the server and stores it on Cloudinary.
 - **Request Body**: `Name, Tags, Email, Image(name:imageFile)`.
 
 ### Video Upload
 
-- **Endpoint**: `/upload/video`
+- **Endpoint**: `/upload/videoUpload`
 - **Method**: `POST`
 - **Description**: Uploads a video to the server and stores it on Cloudinary.
 - **Request Body**: `Name, Tags, Email, Image(name:videoFile)`.
 
 ### Image Size Reducer
 
-- **Endpoint**: `/upload/reduce-image`
+- **Endpoint**: `/upload/imageUpload`
 - **Method**: `POST`
 - **Description**: Reduces the size of an uploaded image and stores it on Cloudinary.
 - **Request Body**: `Name, Tags, Email, Image(name:imageFile)`.
